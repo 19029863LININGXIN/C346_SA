@@ -11,6 +11,20 @@
     <string name="Empty">You do not have any product to remove!</string>
     <string name="WrongID">\"Wrong index number! \"</string>
     <string name="Removed">\"Product Removed! \"</string>
+    <string name="Xiaomi">https://www.mi.com/global/</string>
+    <string name="Oppo">https://www.oppo.com/sg/</string>
+    <string name="Huawei">https://www.huawei.com/en/</string>
+    <string name="Samsung">https://www.samsung.com/sg/</string>
+    <string name="Apple">https://www.apple.com/</string>
+    <string name="github">https://github.com/19029863LININGXIN/C346_SA</string>
+    <string name="CApple">Click on website to Apple</string>
+    <string name="CSamsung">Click on website to Samsung</string>
+    <string name="CHuawei">Click on website to HuaWei</string>
+    <string name="CXiaomi">Click on website to XiaoMi</string>
+    <string name="COppo">Click on website to Oppo</string>
+    <string name="Vgithub">View Github</string>
+    <string name="Vlist">View Product List</string>
+    <string name="website">Website</string>
     <string-array name="spinnerItems">
         <item>1 month</item>
         <item>3 months</item>

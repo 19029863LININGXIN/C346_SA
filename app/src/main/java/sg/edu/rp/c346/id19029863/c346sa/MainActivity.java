@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.apple.com/"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.github)));
                 startActivity(intent);
             }
         });
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         Apple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.apple.com/"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.Apple)));
                 startActivity(intent);
             }
         });
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         Samsung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.samsung.com/sg/"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.Samsung)));
                 startActivity(intent);
             }
         });
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         Huawei.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.huawei.com/en/"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.Huawei)));
                 startActivity(intent);
             }
         });
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         Oppo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.oppo.com/sg/"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.Oppo)));
                 startActivity(intent);
             }
         });
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         Xiaomi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.mi.com/global/"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.Xiaomi)));
                 startActivity(intent);
             }
         });

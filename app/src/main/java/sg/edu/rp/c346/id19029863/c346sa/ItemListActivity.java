@@ -113,8 +113,6 @@ public class ItemListActivity extends AppCompatActivity {
                     Toast.makeText(ItemListActivity.this, R.string.Removed, Toast.LENGTH_SHORT).show();
                 }
 
-
-
             }
         });
     }
