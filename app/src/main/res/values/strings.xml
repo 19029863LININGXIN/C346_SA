@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">C346 Assignment</string>
+    <string name="features"><b>This is an app for user to keep track of the product and their warranty expiry date.
+        Users may view the things they desire using this program,
+        and there are also associated websites where users may check on their own.
+        This program also includes a product list with expiration dates.
+        Users may add new goods, alter expiration dates, and delete goods on their own.</b></string>
+    <string name="introduction"><b>Introduction</b></string>
+    <string name="Added">\"Product Added! \"</string>
+    <string name="Updated">\"Product Updated! \"</string>
+    <string name="Empty">You do not have any product to remove!</string>
+    <string name="WrongID">\"Wrong index number! \"</string>
+    <string name="Removed">\"Product Removed! \"</string>
+    <string-array name="spinnerItems">
+        <item>1 month</item>
+        <item>3 months</item>
+        <item>6 months</item>
+    </string-array>
+</resources>
